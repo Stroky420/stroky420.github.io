@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KataliaProV2 — Demo</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card-demo {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.2s;
+    }
+    .card-demo:hover { transform: translateY(-5px); }
+    .card-demo img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .card-body {
+      padding: 12px;
+    }
+    .card-body h3 {
+      margin: 0 0 8px;
+      font-size: 1.1rem;
+      color: var(--accent);
+    }
+    .card-body p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    .demo-header {
+      text-align: center;
+      margin: 40px 0 20px;
+    }
+    .demo-header h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">JorgeMonteros.dev</a>
+      <nav>
+        <a href="index.html#projects">← Volver al Portafolio</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="demo-header">
+      <h1>KataliaProV2 — Demo</h1>
+      <p>Aplicación móvil para gestión de pólizas con roles, chat interno, métricas inteligentes y administración de clientes.</p>
+    </div>
+
+    <section class="gallery">
+      <div class="card-demo">
+        <img src="img/Login.jpg" alt="Pantalla de Login">
+        <div class="card-body">
+          <h3>Login</h3>
+          <p>Pantalla inicial de inicio de sesión con validación de correo y contraseña.</p>
+        </div>
+      </div>
+
+      <div class="card-demo">
+        <img src="img/Registrocliente.jpg" alt="Registro de clientes">
+        <div class="card-body">
+          <h3>Registro</h3>
+          <p>Formulario para registrar nuevos usuarios con validación de campos y confirmación de contraseña.</p>
+        </div>
+      </div>
+
+      <div class="card-demo">
+        <img src="img/Roles.jpg" alt="Gestión de roles">
+        <div class="card-body">
+          <h3>Gestión de Roles</h3>
+          <p>Módulo para administrar roles: Administrador, Supervisor, Analista y Cliente.</p>
+        </div>
+      </div>
+
+      <div class="card-demo">
+        <img src="img/Creartareas.jpg" alt="Creación de tareas">
+        <div class="card-body">
+          <h3>Crear Tarea</h3>
+          <p>Formulario para asignar tareas a usuarios, con opción de asociar vehículos y establecer fecha límite.</p>
+        </div>
+      </div>
+
+      <div class="card-demo">
+        <img src="img/Vertareas.jpg" alt="Lista de tareas">
+        <div class="card-body">
+          <h3>Gestión de Tareas</h3>
+          <p>Visualización de tareas por estado (pendientes, en proceso, completadas o canceladas).</p>
+        </div>
+      </div>
+
+      <div class="card-demo">
+        <img src="img/Casosclientes.jpg" alt="Casos de clientes">
+        <div class="card-body">
+          <h3>Casos de Clientes</h3>
+          <p>Listado de clientes con detalle de tareas asignadas y estado de cada caso.</p>
+        </div>
+      </div>
+
+      <div class="card-demo">
+        <img src="img/Chat.jpg" alt="Chat interno">
+        <div class="card-body">
+          <h3>Chat Interno</h3>
+          <p>Sistema de mensajería entre clientes, analistas, supervisores y administradores.</p>
+        </div>
+      </div>
+
+      <div class="card-demo">
+        <img src="img/Recursos.jpg" alt="Gestión de recursos">
+        <div class="card-body">
+          <h3>Recursos</h3>
+          <p>Módulo para subir y descargar archivos asociados a tareas, clientes o roles.</p>
+        </div>
+      </div>
+
+      <div class="card-demo">
+        <img src="img/Metricas.jpg" alt="Dashboard de métricas">
+        <div class="card-body">
+          <h3>Dashboard de Métricas</h3>
+          <p>Panel de desempeño con análisis de eficiencia, tiempos promedio y clientes atendidos.</p>
+        </div>
+      </div>
+    </section>
+
+    <p style="text-align:center; margin-top:30px;">
+      <a class="btn primary" href="index.html#projects">Volver al portafolio</a>
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container small">
+      <span>© <span id="year"></span> Jorge Monteros</span>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

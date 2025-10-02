@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio — Jorge Monteros</title>
+  <meta name="description" content="Portafolio web de Jorge Monteros, desarrollador full-stack." />
+  <link rel="icon" href="img/Logo.png" sizes="32x32" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#">
+        <img class="brand-logo" src="img/Logo.png" alt="Logo de Jorge Monteros" />
+        JorgeMonteros.dev
+      </a>
+      <nav>
+        <a href="#about">Sobre mí</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#experience">Experiencia</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-text">
+        <h1>Hola, soy <span class="accent">Jorge Monteros</span> 👋</h1>
+        <p class="lead">Desarrollador <strong>Full-Stack</strong> enfocado en productos rápidos, accesibles y con buen diseño.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">Ver proyectos</a>
+          <a class="btn" href="assets/CV.pdf" target="_blank" rel="noopener">Descargar CV</a>
+        </div>
+        <ul class="socials">
+          <li><a href="https://github.com/Stroky420" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/jorge-luis-monteros-rocha-a95812248/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://wa.me/593995134638?text=Hola%20Jorge%2C%20vi%20tu%20portafolio%20y%20quisiera%20hablar%20de%20un%20proyecto." target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="mailto:jorgemot9@gmail.com">Email</a></li>
+        </ul>
+      </div>
+
+      <!-- Arte decorativo del héroe -->
+      <div class="hero-art" aria-hidden="true">
+        <div class="blob"></div>
+        <!-- logo centrado en el área visual -->
+        <img class="hero-logo" src="img/Logo.png" alt="" loading="lazy" decoding="async" />
+        <div class="hero-badge"><span>Disponible para freelance</span></div>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>Sobre mí</h2>
+      <p>
+        Desarrollador con experiencia en <strong>C# (Xamarin)</strong>, <strong>PHP/MySQL</strong>, <strong>JS</strong> y
+        <strong>análisis de datos con R y Python</strong>. Me gusta escribir código limpio, pensar en producto y trabajar con equipos.
+      </p>
+    </section>
+
+    <section id="skills" class="container section">
+      <h2>Habilidades</h2>
+      <div class="chips" id="skills-list"></div>
+    </section>
+
+    <section id="projects" class="container section">
+      <h2>Proyectos</h2>
+      <div id="projects-grid" class="grid"></div>
+    </section>
+
+    <section id="experience" class="container section">
+      <h2>Experiencia</h2>
+      <div id="timeline" class="timeline"></div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contacto</h2>
+      <p>¿Tienes una idea o proyecto? Hablemos.</p>
+      <div class="cta">
+        <a class="btn whatsapp" href="https://wa.me/593995134638?text=Hola%20Jorge%2C%20vi%20tu%20portafolio%20y%20quisiera%20hablar%20de%20un%20proyecto." target="_blank" rel="noopener">
+          WhatsApp: 099 513 4638
+        </a>
+        <a class="btn" href="mailto:jorgemot9@gmail.com?subject=Hola%20—%20Portafolio">Email</a>
+        <a class="btn" href="tel:+593995134638">Llamar</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container small">
+      <span>© <span id="year"></span> Jorge Monteros — Hecho con HTML/CSS/JS y desplegado en GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

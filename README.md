@@ -63,13 +63,3 @@ Incluye inicio, secciones de habilidades/experiencia, y demos visuales de proyec
     ```json
     "demo": "demokatalia.html" | "soluciones.html" | "eventia.html"
     ```
-
----
-
-## 🖥️ Probar localmente
-
-Opción 1 (Python):
-```bash
-# Dentro de la carpeta del proyecto
-python -m http.server 5500
-# Abre: http://localhost:5500

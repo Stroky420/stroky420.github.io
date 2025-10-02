@@ -1,0 +1,74 @@
+{
+  "title": "Portafolio",
+  "brand": "JorgeMonteros.dev",
+  "name": "Jorge Monteros",
+  "tagline": "Desarrollador <strong>Full‑Stack</strong> | PHP · C# · Xamarin · JS · R · Python",
+  "email": "jorgemot9@gmail.com",
+  "github": "https://github.com/Stroky420",
+  "linkedin": "https://www.linkedin.com/in/jorge-luis-monteros-rocha-a95812248/",
+  "skills": [
+    "C# (Xamarin)",
+    "SQLite",
+    "Supabase",
+    "PHP",
+    "MySQL",
+    "JavaScript",
+    "HTML/CSS",
+    "R",
+    "Python",
+    "SPSS",
+    "Stata",
+    "Git/GitHub",
+    "Power BI",
+    "Análisis de datos"
+  ],
+  "projects": [
+    {
+      "title": "KataliaProV2",
+      "description": "App de gestión de pólizas con roles, tareas, chat y métricas con IA.",
+      "stack": [
+        "Xamarin",
+        "SQLite",
+        "Supabase"
+      ],
+       "demo": "demokatalia.html",
+      "repo": "https://github.com/Stroky420"
+    },
+    {
+      "title": "Soluciones Financieras (Dashboard)",
+      "description": "Interfaz estilo banca virtual con tema oscuro y módulos de clientes, pagos y contratos.",
+      "stack": [
+        "PHP",
+        "MySQL",
+        "CSS"
+      ],
+      "demo": "soluciones.html",
+      "repo": "https://github.com/Stroky420"
+    },
+    {
+      "title": "Eventia (Landing)",
+      "description": "Sitio para organización de eventos con animaciones y QR de entradas.",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JS"
+      ],
+      "demo": "eventia.html",
+      "repo": "https://github.com/Stroky420"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Desarrollador Freelance",
+      "company": "Autónomo",
+      "period": "2023 — Presente",
+      "summary": "Proyectos web y móviles, dashboards y automatizaciones."
+    },
+    {
+      "role": "Estudiante de Software",
+      "company": "ITQ",
+      "period": "2021 — Presente",
+      "summary": "Formación en desarrollo, bases de datos y análisis."
+    }
+  ]
+}
